@@ -66,7 +66,6 @@ void shakerSort(int a[], int n) {
     } while (left < right);
 }
 
-// Сортування вставками
 void insertSort(int a[], int n) {
     for (int i = 1; i < n; ++i) {
         int temp = a[i], j = i - 1;
